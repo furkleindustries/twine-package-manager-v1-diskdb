@@ -1,6 +1,6 @@
 FROM postgres:9.6
 
-RUN mkdir /etc/twinepm-server-heroku/diskdb/
+RUN mkdir -p /etc/twinepm-server-heroku/diskdb/
 
 WORKDIR /etc/twinepm-server-heroku/diskdb/
 
